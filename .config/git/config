@@ -7,7 +7,7 @@
 	st = status
 	undo = reset --soft HEAD^  # Undo last commit, keep the changes
 [init]
-	defaultBranch = master
+	defaultBranch = main
 [pull]
 	rebase = true 			 # Rebase (instead of merge) on pull
 [push]
@@ -35,7 +35,7 @@
 	enabled = true           # Record and reuse conflict resolutions
 	autoupdate = true        # Apply stored conflict resolutions automatically
 [include]
-	path = ~/.gitconfig.local  # Untracked — holds user.email, see README
+	path = ~/.gitconfig.local  # Untracked — holds user.name and user.email, see README
 [credential "https://github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
