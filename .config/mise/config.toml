@@ -9,3 +9,6 @@ stripe-cli = "1.50.1"
 
 [settings]
 idiomatic_version_file_enable_tools = ["node"]
+
+[settings.upgrade]
+auto_prune = false
